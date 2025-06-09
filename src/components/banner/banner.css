@@ -1,0 +1,47 @@
+.banner-page{
+    background-image: url('../../assets/images/top-banner.svg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 608px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1em;
+}
+
+.profile-img{
+    width: 180px;
+    height: 180px;
+    border-radius: 100%;
+    border: 6px solid #232935;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+.profile-img img{
+    width: 100%;
+    height: auto;
+}
+.media-list .item{
+    width: 36px;
+    height: 36px;
+    border-radius: 100%;
+    padding: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1.5px solid #a9adb855;
+}
+.media-list .item:hover{
+    border: 1.5px solid #FEC544;
+}
+
+@media screen and (max-width: 1000px) {
+
+    .description{
+        width: 100% !important;
+    }
+  
+  }

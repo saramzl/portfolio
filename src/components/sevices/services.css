@@ -1,0 +1,40 @@
+.services-page .item {
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+    flex-direction: column;
+    gap: 1.5em;
+    padding: 1em;
+    background-color: #101624;
+    border: 1px solid #232935;
+    border-radius: 8px;
+}
+
+.services-page .item .services-img {
+    width: 85px;
+    height: 85px;
+    border: 1px solid #232935;
+    background-color: #0A101E;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0.5em;
+    border-radius: 100%;
+    margin-top: 2em;
+}
+
+.services-page .item .services-img img {
+    width: 60px;
+    height: 60px;
+}
+
+.services-page .item h6 {
+    font-size: 16px;
+    font-weight: 600;
+}
+.services-page .item:hover > h6{
+    color: #FEC544;
+}
+.services-page .item:hover > .services-img{
+    border-color: #FEC544;
+}

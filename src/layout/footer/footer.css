@@ -1,0 +1,26 @@
+.mt-10 {
+    margin-top: 10em;
+}
+
+.footer a {
+    color: #fff !important;
+}
+
+.footer a:hover {
+    color: #FEC544 !important;
+}
+.footer-sec{
+    padding: 3em;
+}
+.menu-footer {
+   flex-wrap: wrap;
+}
+@media screen and (max-width: 850px) {
+
+    .menu-footer {
+        width: 100% !important;
+    }
+    .footer-sec{
+        padding: 0em !important;
+    }
+}

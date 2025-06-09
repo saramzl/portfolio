@@ -1,0 +1,119 @@
+.description-box {
+    backdrop-filter: blur(5px);
+    border-radius: 14px;
+    padding: 1em;
+    /* margin-right: -5em; */
+    max-height: 11em;
+    overflow: hidden;
+    transition: max-height 0.8s ease-in-out, padding 0.3s ease-in-out;
+    position: relative;
+}
+.bg-gradiant-right{
+    background: linear-gradient(170deg, rgba(254, 198, 68, 0.4) 0%, rgba(0, 0, 0, 0.58) 44%);
+
+}
+.bg-gradiant-left{
+    background: linear-gradient(190deg, rgba(254, 198, 68, 0.4) 0%, rgba(0, 0, 0, 0.58) 44%);
+
+}
+.bg-img {
+    background-image: url('../../assets/images/bg-shape.svg');
+    /* padding: 2em; */
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: absolute;
+    width: 500px;
+    height: 428px;
+ 
+    z-index: -1;
+    opacity: 50%;
+
+}
+.bg-img-left{
+    left: -5em;
+    top: -5em;
+}
+.bg-img-right{
+    right: -5em;
+    top: -8em;
+}
+.row-reverse{
+    flex-direction: row-reverse;
+}
+.product-img{
+    /* height: 320px; */
+}
+.product-img img {
+    width: 100%;
+    height: auto;
+    z-index: 1000;
+}
+.description-box p {
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    line-clamp: 4;
+    -webkit-line-clamp: 4; /* این خط مهمه برای ۴ خط */
+    transition: all 0.3s ease;
+    margin: 0;
+  }
+  .description-box.expanded {
+    max-height: 500px; /* یا یه مقدار بزرگ که کل متن رو بپوشونه */
+  }
+  
+  .description-box.expanded p {
+    -webkit-line-clamp: unset;
+    line-clamp: unset;
+    overflow: visible;
+  }
+  .show-more {
+    color: #434446;
+    font-weight: 500;
+    cursor: pointer;
+    margin-top: 0.5em;
+    display: inline-block;
+  }
+
+  
+  .description-box.expanded {
+    max-height: 1000px;
+  }
+  
+  .description-box p {
+    opacity: 1;
+    transition: opacity 0.3s ease-in-out;
+    margin: 0;
+  }
+  
+  .description-box.collapsed p {
+    opacity: 0.9;
+  }
+  
+  .show-more {
+    color: #434446;
+    font-weight: 500;
+    cursor: pointer;
+    margin-top: 0.5em;
+    display: inline-block;
+  }
+  
+  @media screen and (max-width: 850px) {
+
+    .description-box{
+     margin-left: unset !important;
+     margin-right: unset !important;
+    }
+    .bg-img {
+      display: none !important;
+    }
+    .project-page .item{
+      gap: 2em;
+    }
+    .project-page .link{
+      text-align: left !important;
+    }
+    .project-page a{
+      justify-content: start !important;
+    }
+   }

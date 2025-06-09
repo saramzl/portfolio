@@ -1,0 +1,31 @@
+.about-page{
+    margin-top: 5em;
+}
+
+@media screen and (max-width: 850px) {
+
+    .about-page h2{
+        text-align: center !important;
+    }
+    .about-page h3{
+        text-align: center !important;
+    }
+    .about-page p{
+        text-align: center !important;
+    }
+    .about-page .detail{
+        justify-content: center !important;
+    }
+    .about-page .btn{
+       margin-left: auto !important;
+       margin-right: auto !important;
+    }
+    .subtitle{
+    width: 100% !important;
+    font-size: 24px !important;
+    }
+    .about-page{
+        justify-content: center !important;
+        align-items: center !important;
+    }
+  }

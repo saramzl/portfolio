@@ -1,0 +1,10 @@
+.skills-page img{
+    min-height: 74px;
+    max-height: 74px;
+}
+@media screen and (max-width: 850px) {
+    .skills-page img{
+        height: 40px;
+        width: 40px;
+    }
+}
