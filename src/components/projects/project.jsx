@@ -92,13 +92,13 @@ function Project() {
   {
     name: 'Fresh cart',
     image: FreshCard,
-    description: "",
+    description: "Designed a comprehensive mobile UI for an online grocery shopping app, covering onboarding, product browsing, search/filter, detailed product pages, cart management, order tracking, and user profile settings. The app emphasizes usability, clean layout, and accessibility. Special attention was given to intuitive navigation, responsive interactions, and seamless checkout flow with multiple payment methods.",
     link: 'http://raya-service.top:8093/'
   },
   {
     name: 'Event',
     image: Event,
-    description: "",
+    description: "Designed a complete mobile application interface for discovering, booking, and managing event tickets. The app features onboarding, user authentication, event exploration with location-based filters, ticket purchasing, payment gateway integration, chat system, and notification management. Focused on creating a seamless and user-friendly journey from event discovery to post-purchase interaction.",
     link: 'http://raya-service.top:8091/'
   },
   {
@@ -134,7 +134,7 @@ function Project() {
   {
     name: 'Gift Card',
     image: GiftCard,
-    description: "",
+    description: "Designed and developed the user interface for an e-commerce platform specializing in digital gift cards. Focused on delivering a smooth and intuitive user experience with advanced filtering, search, and category navigation. Employed modern visual design principles including bold color schemes, clean typography, and responsive layouts to ensure an engaging shopping experience across devices.",
     link: 'http://raya-service.top:8094/'
   },
   {
@@ -143,12 +143,12 @@ function Project() {
     description: "",
     link: 'https://easycard724.ir/'
   },
-  {
-    name: 'Phygizon',
-    image: Phygizon,
-    description: "",
-    link: ''
-  },
+  // {
+  //   name: 'Phygizon',
+  //   image: Phygizon,
+  //   description: "",
+  //   link: ''
+  // },
   {
     name: 'Ticket Booking',
     image: TicketBooking,
