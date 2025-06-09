@@ -110,7 +110,7 @@ function Project() {
   {
     name: 'Bonnyto',
     image: Bonnyto,
-    description: "",
+    description: "A comprehensive health tracking app designed to monitor calorie intake, water consumption, and physical stats.Users can log meals, track progress, and get visual feedback through dynamic charts and dashboards.The interface combines functionality with a vibrant, health-focused design to enhance daily wellness routines.",
     link: ''
   },
   {
@@ -140,7 +140,7 @@ function Project() {
   {
     name: 'Easycard',
     image: EasyCard,
-    description: "",
+    description: "A sleek and responsive web interface for purchasing global gift cards with local payment options.Users can browse, search, and instantly buy gift cards from major brands with a modern dark UI theme.The design emphasizes clarity, trust, and smooth navigation for an effortless user experience.",
     link: 'https://easycard724.ir/'
   },
   // {
